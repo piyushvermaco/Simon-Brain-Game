@@ -12,20 +12,26 @@ body {
   color: #7C99AC;
 }
 
-.container {
+.gameContainer {
   display: block;
   width: 50%;
   margin: auto;
 
 }
 
-.btn {
+.gameButton {
   margin: 25px;
   display: inline-block;
   height: 200px;
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+}
+
+.start-button {
+  font-family: 'Press Start 2P', cursive;
+  margin:auto;
+
 }
 
 .game-over {
@@ -72,4 +78,13 @@ body {
 
 .icon:hover {
   color: #000000;
+}
+
+
+@media screen and (max-width: 1028px) {
+  body {
+    text-align: center;
+    background-image: url("bg.png");
+    background-size: cover;
+  }
 }
